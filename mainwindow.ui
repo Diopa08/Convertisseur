@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 127);
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelconvertisseur">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-decoration: underline;
+text-decoration: underline;
+font: 75 16pt &quot;Arial&quot;;
+color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>Convertisseur</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxUnitFrom">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 127);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ligne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pouce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pied</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yard</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mille</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Centimètre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Millimètre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mètre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilomètre</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButtonconvertir">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>190</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>Convertir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelconvertir">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Valeur à convertir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelconvertie">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Valeur convertie</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonquitter">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>340</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Quitter</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxUnitTo">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>190</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 127);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ligne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pouce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pied</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yard</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mille</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Centimètre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Millimètre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mètre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilomètre</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEditValue">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowserResult">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>475</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHistorique">
+    <property name="title">
+     <string>Historique</string>
+    </property>
+    <addaction name="actionAfficher_l_historique"/>
+    <addaction name="actionR_initialiser_l_historique"/>
+   </widget>
+   <addaction name="menuHistorique"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAfficher_l_historique">
+   <property name="text">
+    <string>Afficher l'historique</string>
+   </property>
+  </action>
+  <action name="actionR_initialiser_l_historique">
+   <property name="text">
+    <string>Réinitialiser l'historique</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
